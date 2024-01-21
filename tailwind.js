@@ -4,7 +4,10 @@ module.exports = {
       // ...
     ],
     theme: {
-      extend: {},
+      extend: { 
+         
+          backgroundImage: { 'banner': "url('/images/banner.png')",},
+        },
     },
     plugins: [],
   }
